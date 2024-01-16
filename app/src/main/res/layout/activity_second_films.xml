@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".first_films">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Святые из Бундока (1999)"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/video2"
+        android:layout_width="409dp"
+        android:layout_height="339dp"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Чего только не бывает на свете! Два обычных ирландских парня, братья Коннор и Мерфи, преспокойно жили и работали в своем родном Бостоне, пока в один прекрасный день на них не снизошло озарение: сам Бог послал их на землю с особой миссией, наделив святой силой, чтобы очистить мир от зла. И братья взялись за дело со всей серьезностью, присущей ирландцам... Вскоре местную мафию охватывает настоящая паника - ведь методы «святых» не отличаются особой гуманностью, зато оказались очень эффективными - кровь полилась рекой! Массовый отстрел мафиози не смог не привлечь внимания ФБР..."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/video2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
